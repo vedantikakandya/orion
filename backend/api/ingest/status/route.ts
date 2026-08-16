@@ -3,7 +3,7 @@ const NextResponse = {
     return Response.json(body, init)
   }
 } as const
-import { sql } from "../../../lib/db"
+import { sql } from "@/lib/db"
 
 export async function GET() {
   try {
